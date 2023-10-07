@@ -60,11 +60,11 @@ nav{
 .products{
     display: flex;
     justify-content: space-around;
-    padding-inline: 6vw;
+    padding-inline: 7.8vw;
     flex-wrap: wrap;
 }
 .hero-scroll{
-    width: 87vw;
+    width: 82vw;
     margin: auto;
 }
 .list{
@@ -78,7 +78,7 @@ nav{
     margin-inline: 8px;
 }
 .catagory-header{
-    width: 85vw;
+    width: 81vw;
 }
 .catagory-header>p{
     color: #0d831e;
@@ -100,7 +100,7 @@ nav{
     margin: auto !important;
 }
 .catagory{
-    width: 85vw;
+    width: 82vw;
     margin: auto;
 }
 .card-footerr>p{
@@ -128,7 +128,7 @@ footer{
 }
 
 .footer-row2{
-    width: 88vw;
+    width: 82vw;
     margin: auto;
     padding: 5px; 
     padding-bottom: 30px;
@@ -140,7 +140,7 @@ footer{
     line-height: 18px;
 }
 .footer-row3{
-    width: 88vw;
+    width: 81vw;
     margin: auto;
     font-size: 14px;
     color: rgb(102, 102, 102);
@@ -168,7 +168,7 @@ footer{
     box-shadow: 0px 0px 5px rgb(42, 42, 241);
 }
 .footer-row1{
-    width: 88vw;
+    width: 81vw;
     margin: auto;
     display: flex;
 }
