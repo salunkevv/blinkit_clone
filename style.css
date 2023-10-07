@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+}
+.verticleline{
+    width: 1px;
+    height: 70px;
+    background-color: #f2f2f2;
+}
+.navpara>h4{
+    font-weight: 900;
+    margin-top: 25px;
+    font-size:large;
+}
+.navpara>p{
+    font-weight: 400;
+    font-size: smaller;
+}
+.searchbar{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    overflow: hidden;
+    padding-inline: 10px;
+}
+.searchbar>input{
+    background-color: transparent;
+    width: 40vw;
+    height: 50px;
+    border: none;
+
+}
+.navlogin{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+.navmycart{
+    background-color: #0d831e;
+    border: none;
+    height:60px;
+    width: 120px;
+    color:white;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 6vw;
+    flex-wrap: wrap;
+}
+.hero-scroll{
+    width: 87vw;
+    margin: auto;
+}
+.list{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}
+.list>img{
+    margin-inline: 8px;
+}
+.catagory-header{
+    width: 85vw;
+}
+.catagory-header>p{
+    color: #0d831e;
+}
+
+.my-card{
+    width: 220px;
+    box-sizing: border-box !important;
+    border-radius: 15px !important;
+    margin-inline: 8px;
+    display: inline-block !important;
+
+}
+.card>p{
+    white-space: wrap !important;
+}
+.card>img{
+    display: inline-block !important;
+    margin: auto !important;
+}
+.catagory{
+    width: 85vw;
+    margin: auto;
+}
+.card-footerr>p{
+    margin: 0px;
+}
+.discount-tag{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 40px;
+    color: #eeeeee;
+    background-color: darkblue;
+    font-weight: 600;
+    text-align: center;
+    font-size: 11px;
+}
+.dropdown{
+    position: relative;
+    bottom: -9px;
+    color: darkblue;
+    /* font-size: 13px; */
+}
+footer{
+    background-color: #ffffff;
+}
+
+.footer-row2{
+    width: 88vw;
+    margin: auto;
+    padding: 5px; 
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.footer-row2>p{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+}
+.footer-row3{
+    width: 88vw;
+    margin: auto;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+    padding-bottom: 15px;
+}
+.footer-icons>div{
+    background-image: url("https://afhomeph.com/cdn/shop/files/4_37e8f987-8a19-4cc9-bc14-95a75d157c9c.png?v=1690264813&width=440");
+    background-position: center;
+    height: 30px;
+    width: 92px ;
+    background-size: cover;
+}
+.footer-icons>h5{
+    font-size: 14px;
+    color: rgb(66, 64, 64);
+    line-height: 18px;
+    margin: 0px;
+}
+.social-icon{
+    font-size: 25px;
+}
+.social-icon>i:hover{
+    color: rgb(147, 156, 235);
+    box-shadow: 0px 0px 5px rgb(42, 42, 241);
+}
+.footer-row1{
+    width: 88vw;
+    margin: auto;
+    display: flex;
+}
+footer{
+    margin-top: 70px;
+    
+}
+.table1{
+    margin-right: 50px;
+}
+td{
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+    padding: 8px 50px 8px 0px;
+    margin-right: 10px;
+}
+td:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+@media screen and (max-width: 480px) {
+    nav{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .hero,.verticleline{
+        display: none;
+    }
+    nav>a{
+        margin-top: 10px;
+    }
+    .searchbar{
+        width: 100%;
+    }
+    nav>button{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .hero-scroll{
+        margin-top: 10px;
+    }
+    .footer-row1{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .table1{
+        margin-bottom: 20px;
+    }
+    .footer-row2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around !important;
+    }
+    .footer-icons{
+        margin-top: 20px;
+    }
+    .social-icon{
+        width: 100% !important;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
